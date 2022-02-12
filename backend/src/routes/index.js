@@ -1,7 +1,7 @@
 const express=require('express');
 const homeController=require('../controllers/homeController');
-const dealerRouter=require('./dealers');
-const driverRouter=require('./drivers');
+const dealerRouter=require('../models/dealers');
+const driverRouter=require('../models/drivers');
 const router=express.Router();
 
 console.log('Router up!!!');
