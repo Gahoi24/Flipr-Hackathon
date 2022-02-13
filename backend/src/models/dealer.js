@@ -29,7 +29,7 @@ const dealerSchema = new mongoose.Schema({
         type:String,
         required:true,
     },
-    weightOfMaterail:{
+    weightOfMaterial:{
         type:Number,
         required:true,
     },
